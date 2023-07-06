@@ -9,8 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin:
-      'https://64a6bea80991212afbdfa360--moonlit-starburst-06cbf5.netlify.app',
+    origin: 'https://zavrsni-rad-mobile-shop.netlify.app',
     credentials: true,
   })
 );
