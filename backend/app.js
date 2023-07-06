@@ -9,10 +9,12 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: 'http://localhost:3000',
+    origin:
+      'https://64a6bea80991212afbdfa360--moonlit-starburst-06cbf5.netlify.app',
     credentials: true,
   })
 );
+
 app.use(bodyParser.urlencoded({ extended: true, limit: '50mb' }));
 
 if (process.env.NODE_ENV !== 'PRODUCTION') {

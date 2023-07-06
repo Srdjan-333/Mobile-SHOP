@@ -25,7 +25,7 @@ router.post('/create-user', async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `http://localhost:3000/activation/${activationToken}`;
+    const activationUrl = `https://64a6bea80991212afbdfa360--moonlit-starburst-06cbf5.netlify.app/activation/${activationToken}`;
 
     try {
       await sendMail({
