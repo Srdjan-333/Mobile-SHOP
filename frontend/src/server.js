@@ -1,1 +1,1 @@
-export const server = 'http://localhost:8000/api/v2';
+export const server = 'https://zavrsni-rad-mobile-shop.netlify.app/api/v2';
