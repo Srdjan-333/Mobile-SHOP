@@ -25,7 +25,7 @@ router.post('/create-user', async (req, res, next) => {
 
     const activationToken = createActivationToken(user);
 
-    const activationUrl = `https://zavrsni-rad-mobile-shop.netlify.app//activation/${activationToken}`;
+    const activationUrl = `https://zavrsni-rad-mobile-shop.netlify.app/activation/${activationToken}`;
 
     try {
       await sendMail({
