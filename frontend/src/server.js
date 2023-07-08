@@ -1,1 +1,2 @@
-export const server = 'https://zavrsni-rad-mobile-shop.netlify.app/api/v2';
+export const server =
+  'https://zavrsni-rad-mobile-shop-backend.onrender.com/api/v2';
