@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: 'https://zavrsni-rad-mobile-shop.netlify.app',
+    origin: 'https://master--scintillating-pika-cfc211.netlify.app',
     credentials: true,
   })
 );
