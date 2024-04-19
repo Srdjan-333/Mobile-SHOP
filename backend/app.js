@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: 'https://scintillating-pika-cfc211.netlify.app',
+    origin: '',
     credentials: true,
   })
 );
