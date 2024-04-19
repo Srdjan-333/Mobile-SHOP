@@ -339,7 +339,7 @@ const PaymentInfo = ({
                   <PayPalScriptProvider
                     options={{
                       'client-id':
-                        '',
+                        ' ',
                     }}
                   >
                     <PayPalButtons
